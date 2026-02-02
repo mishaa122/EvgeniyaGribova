@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Name | Personal Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="nav">
+        <div class="nav-container">
+            <div class="logo">YourName</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+
+        <section class="hero">
+            <h1>Your main heading</h1>
+            <p>
+                Short, serious statement about who you are and what you do.
+                Keep this calm and confident.
+            </p>
+        </section>
+
+        <section id="about" class="content">
+            <h2>About</h2>
+            <p>
+                This is your main writing area.
+                You can put longer text here describing your background,
+                interests, projects, or ideas.
+            </p>
+        </section>
+
+        <section id="work" class="content">
+            <h2>Work / Projects</h2>
+            <p>
+                Describe projects, experience, research, or anything else.
+                You can later turn this into cards or lists if you want.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <p>Contact</p>
+            <div class="footer-links">
+                <a href="mailto:youremail@example.com">Email</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn</a>
+            </div>
+            <span>© 2026 Your Name</span>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.nav {
+    background: rgba(15, 17, 21, 0.95);
+    border-bottom: 1px solid #222;
+    position: sticky;
+    top: 0;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+nav a {
+    color: #bbb;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Main */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 4rem 1rem;
+}
+
+.hero {
+    margin-bottom: 4rem;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    color: #aaa;
+    max-width: 600px;
+}
+
+.content {
+    margin-bottom: 3.5rem;
+}
+
+.content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #222;
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 1rem 0;
+}
+
+.footer-links a {
+    margin: 0 0.8rem;
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+footer span {
+    color: #666;
+    font-size: 0.8rem;
+}
