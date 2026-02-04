@@ -1,9 +1,6 @@
 your-repo/
 │
 ├── index.html
-├── style.css
-└── README.md   (optional)
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,7 +68,7 @@ your-repo/
 
 </body>
 </html>
-
+├── style.css
 /* Reset */
 * {
     margin: 0;
@@ -185,3 +182,4 @@ footer span {
     color: #666;
     font-size: 0.8rem;
 }
+└── README.md   (optional)
