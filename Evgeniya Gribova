@@ -1,6 +1,6 @@
 your-repo/
-│
-├── index.html
+
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,7 +68,8 @@ your-repo/
 
 </body>
 </html>
-├── style.css
+
+style.css
 /* Reset */
 * {
     margin: 0;
